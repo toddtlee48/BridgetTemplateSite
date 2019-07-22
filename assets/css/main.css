@@ -77,7 +77,19 @@
 		-ms-appearance: none;
 		appearance: none;
 	}
+	.testy {
+		text-align: center;
+	}
+.logo {
+	width: 75px;
+	display: inline-block;
+	float: left;
+}
 
+.stars {
+	color: #ffd700;
+	margin-bottom: 20px;
+}
 /* Basic */
 
 	@-ms-viewport {
@@ -2931,7 +2943,7 @@
 	}
 
 	#header {
-		background: #444;
+		background: #3b0d56;
 		color: #bbb;
 		cursor: default;
 		height: 3.25em;
@@ -3256,7 +3268,7 @@
 /* Footer */
 
 	#footer {
-		background: #f0f0f0;
+		background: #d3d3d3;
 		padding: 4em 0 6em 0;
 		text-align: center;
 	}
@@ -3303,8 +3315,8 @@
 /* CTA */
 
 	#cta {
-		background: #e89980;
-		color: #f9e6df;
+		background: #3b0d56;
+		color: #d4af37;
 		padding: 3.5em 0 4em 0;
 		text-align: center;
 	}
@@ -3692,6 +3704,7 @@
 					padding-right: 0.5em;
 				}
 
+
 		/* Box */
 
 			.box {
@@ -3876,9 +3889,6 @@
 						margin-bottom: -3em;
 						margin-top: 3em;
 					}
-.logo {
-	width: 5px;
-}
 		/* Banner */
 
 			#banner {

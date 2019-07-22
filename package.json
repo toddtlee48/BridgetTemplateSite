@@ -1,0 +1,28 @@
+{
+  "name": "bridgettemplate",
+  "version": "1.0.0",
+  "description": "Bridget's First Site",
+  "main": "index.html",
+  "dependencies": {
+    "node-sass": "^4.7.2"
+  },
+  "devDependencies": {
+    "lite-server": "^2.5.3"
+  },
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server",
+    "scss": "node-sass -o css/ css/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toddtlee48/BridgetTemplateSite.git"
+  },
+  "author": "Todd",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/toddtlee48/BridgetTemplateSite/issues"
+  },
+  "homepage": "https://github.com/toddtlee48/BridgetTemplateSite#readme"
+}
