@@ -1,0 +1,139 @@
+body,
+html {
+  width: 100%;
+  height: 100%; 
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  max-width: 65px;
+  border-width: 3px;
+  border-color: #F05F44; 
+}
+#main {
+  padding-top: 250px;
+}
+#nav {
+  color: #fff;
+}
+
+.faded {
+  color: rgba(255, 255, 255, 0.8); 
+}
+
+#header nav > ul > li a:not(.button) {
+  color: #fff;
+}
+
+header.startup {
+}
+#banner {
+    background-attachment: scroll, fixed;
+    background-color: #666;
+    background-image: url(images/overlay.png), url(../../images/posh12about.jpg);
+    background-position: top left, center center;
+    background-repeat: repeat, no-repeat;
+    background-size: auto, cover;
+    color: #fff;
+    padding: 12em 0 20em 0;
+    text-align: center;
+}
+
+header.startup hr {
+  margin-top: 200px;
+  margin-bottom: 30px; 
+}
+
+img {
+  margin-bottom: 50px;
+}
+
+header.startup h1 {
+  font-size: 2rem; 
+  color: #fff;
+}
+
+.btn {
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 300px;
+  font-family: 'Montserrat', sans-serif;
+}
+HTML CSS Result
+EDIT ON
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,800);
+.snip1217 {
+  font-family: 'Raleway', Arial, sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.snip1217 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.snip1217 li {
+  display: inline-block;
+  list-style: outside none none;
+  margin: 0.5em 1.5em;
+  padding: 0;
+}
+.snip1217 a {
+  padding: 0.3em 0;
+  color: rgba(255, 255, 255, 0.5);
+  position: relative;
+  text-decoration: none;
+  display: inline-block;
+}
+.snip1217 a:before,
+.snip1217 a:after {
+  height: 3px;
+  position: absolute;
+  content: '';
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+  background-color: #9b59b6;
+  width: 0;
+}
+.snip1217 a:before {
+  top: 0;
+  left: 0;
+}
+.snip1217 a:after {
+  bottom: 0;
+  right: 0;
+}
+.snip1217 a:hover,
+.snip1217 .current a {
+  color: #ffffff;
+}
+.snip1217 a:hover:before,
+.snip1217 .current a:before,
+.snip1217 a:hover:after,
+.snip1217 .current a:after {
+  width: 100%;
+}
+.box:hover {
+  box-shadow: 0 0 11px #ff69b4; 
+}
+.btn-xl {
+  padding: 1rem 2rem; 
+}
+
+.btn-primary {
+  background-color: #F05F44;
+  border-color: #F05F44; }
+
+.btn-primary:hover {
+  background-color: #ee4b08;
+  border-color: #ee4b08;
+  border-width: 5px;
+  cursor: pointer;
+}
+  

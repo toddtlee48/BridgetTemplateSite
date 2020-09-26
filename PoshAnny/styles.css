@@ -1,0 +1,67 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+.container1 {
+    width: 100%;
+    margin: 80px 30px;
+    display: flex;
+    flex-wrap: wrap;
+  justify-content: center;
+}
+
+.item {
+    width: 48%;
+    display: inline-block;
+
+}
+span {
+    font-size: 24px;
+    font-style: italic;
+    font-family: 'Georgia', 'Times New Roman', serif;
+}
+
+h1 {
+    font-size: 44px;
+    margin-top: 10px;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+a {
+    margin: 16px;
+    display: inline-block;
+}
+
+
+.container1:hover div.item1 {
+  opacity: 1;
+}
+
+div.item1 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .3s ease;
+  background-color: red;
+}
+
+.one {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.fa-camera:hover {
+  color: #eee;
+}
+
+div.item2.blue {
+  background-color: #34495e;
+}
