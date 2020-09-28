@@ -1,0 +1,140 @@
+html {
+    box-sizing: border-box;
+
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+}
+
+h1 {
+  text-align: center;
+  font-family: Raleway;
+  color: #34495e;
+  margin-top: 30px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+
+}
+
+#banner {
+    background-attachment: scroll,              fixed;
+    background-color: #666;
+    background-image: url("images/overlay.png"), url("../images/gallery.jpg");
+    background-position: top left,            center center;
+    background-repeat: repeat,              no-repeat;
+    background-size: auto,              cover;
+    color: #fff;
+    padding: 12em 0 20em 0;
+    text-align: center;
+  }
+
+
+div.item {
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 10px 1%;
+  min-width: 220px;
+  max-width: 310px;
+  width: 100%;
+  background: #000000;
+  text-align: center;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+
+div.item * {
+  box-sizing: border-box;
+}
+
+div.item img {
+  max-width: 100%;
+  vertical-align: top;
+  height: 280px;
+  width: 370px;
+}
+
+div.item i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 50%;
+  font-size: 34px;
+  color: #000000;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  background: #ffffff;
+}
+
+div.item a {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+}
+
+div.item.blue {
+  background-color: #006400;
+}
+div.item.blue i {
+  color: #006400;
+}
+div.item.red {
+  background-color: #87ceeb;
+}
+div.item.red i {
+  color: #87ceeb;
+}
+
+div.item.green {
+  background-color: #ccac00;
+}
+div.item.green i {
+  color: #ccac00;
+}
+
+div.item.black {
+  background-color: #D2B48C;
+}
+div.item.black i {
+  color: #D2B48C;
+}
+
+div.item.gray {
+  background-color: #d3d3d3;
+}
+div.item.gray i {
+  color: #D3d3d3;
+}
+
+div.item.burgundy {
+  background-color: #800020;
+}
+
+div.item.burgundy i {
+  color: #800020;
+}
+
+div.item:hover img {
+  opacity: 0.3;
+  filter: grayscale(100%);
+}
+
+div.item * {
+  transition: all .5s ease-in-out;
+
+}
+div.item i {
+  transform: translate(-50%, -50%) scale(0);
+  transition: transform 300ms 0ms cubic-bezier(0.6, -0.27, 0.735, 0.045);
+}
+div.item:hover i {
+  transform: translate(-50%, -50%) scale(1);
+}
