@@ -97,13 +97,18 @@ div.item.green {
   background-color: #ccac00;
 }
 div.item.green i {
+<<<<<<< HEAD
   color: #ccac00;
+=======
+  color: 	#ccac00;
+>>>>>>> 05c7596ab21afb6ceba0a61aee8f1c27b0862e2a
 }
 
 div.item.black {
   background-color: #D2B48C;
 }
 div.item.black i {
+<<<<<<< HEAD
   color: #D2B48C;
 }
 
@@ -120,6 +125,9 @@ div.item.burgundy {
 
 div.item.burgundy i {
   color: #800020;
+=======
+  color: 	#D2B48C;
+>>>>>>> 05c7596ab21afb6ceba0a61aee8f1c27b0862e2a
 }
 
 div.item:hover img {
@@ -137,4 +145,8 @@ div.item i {
 }
 div.item:hover i {
   transform: translate(-50%, -50%) scale(1);
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 05c7596ab21afb6ceba0a61aee8f1c27b0862e2a
